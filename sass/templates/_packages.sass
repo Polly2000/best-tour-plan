@@ -1,0 +1,124 @@
+.packages
+  padding: 80px 0 1px 0
+  &__title
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+    color: $text-color
+  &-wrapper
+    margin-top: 65px
+    display: grid
+    grid-template-columns: repeat(3, minmax(min-content, 350px))
+    gap: 30px
+
+.package
+  position: relative
+  display: flex
+  flex-direction: column
+  height: 500px
+  border-radius: 8px
+  overflow: hidden
+  background-color: $dark-color
+  color: $light-color
+  &_br
+    border-radius: 8px
+  &:first-child
+    flex-direction: row
+    grid-column: 1/span 2
+  &__info
+    padding: 30px 21px 25px 32px
+  &__image
+    height: 250px
+    object-fit: cover
+  &__offer
+    position: absolute
+    left: 0
+    top: 26px
+    font-size: 8px
+    line-height: 10px
+  &__title
+    margin: 0
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+  &__room
+    display: flex
+    flex-direction: column
+    margin-top: 23px
+    &_mt
+      margin-top: 32px
+  &__text
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    margin-bottom: 11px
+    &:last-child
+      margin-bottom: 0
+  &__paragraph
+    margin-left: 15px
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+  &__order
+    margin-top: 24px
+  &__price
+    display: flex
+    justify-content: space-between
+    &_mt
+      margin-top: 5px
+    &_mtbig
+      margin-top: 10px
+  &__discount
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 18px
+    text-decoration-line: line-through
+  &__pricetag
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 30px
+  &__button
+    padding: 10px 25px
+    border: none
+    border-radius: 4px
+    font-family: Nunito
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 19px
+    background-color: $primary-color
+    color: $light-color
+    cursor: pointer
+
+.other
+  &-package
+    &__image
+      width: 50%
+      height: 100%
+    &__offer
+      padding: 8px 12px
+      font-size: 12px
+    &__info
+      padding: 47px 21px 30px 44px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+    &__rating
+      display: flex
+      align-items: center
+      margin-bottom: 4px
+    &__description
+      margin: 0
+      max-width: 300px
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 160.6%
+      &_mt
+        margin-top: 11px

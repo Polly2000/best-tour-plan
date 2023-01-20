@@ -1,0 +1,97 @@
+.reviews
+  padding: 7px 0 70px 0
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+    margin-bottom: 66px
+  &__item
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    max-width: 730px
+    margin: 45px auto 0
+    background-color: #fff
+    border-radius: 8px
+    padding: 0 62px 30px
+    &::before
+      content: ''
+      position: absolute
+      top: 13px
+      left: 62px
+      background-image: url(../img/quote-left.svg)
+      background-repeat: no-repeat
+      width: 70px
+      height: 47px
+    &::after
+      content: ''
+      position: absolute
+      top: 118px
+      right: 62px
+      background-image: url(../img/quote-right.svg)
+      background-repeat: no-repeat
+      width: 70px
+      height: 47px
+  &__profile
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-top: -45px
+    margin-bottom: 30px
+  &__avatar
+    width: 90px
+    height: 90px
+    border-radius: 50%
+    object-fit: cover
+    // margin: 0
+  &__username
+    font-style: normal
+    font-weight: bold
+    font-size: 12px
+    line-height: 15px
+    color: $primary-color
+  &__date
+    font-style: normal
+    font-weight: normal
+    font-size: 10px
+    line-height: 13px
+    margin-bottom: 4px
+  &__rating
+    display: flex
+    align-items: center
+  &__text
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 160%
+    text-align: justify
+    margin: auto
+    max-width: 537px
+
+.slider
+  &-button
+    position: absolute
+    top: 46%
+    transform: translateY(-50%)
+    width: 60px
+    height: 30px
+    background-repeat: no-repeat
+    background-size: 10px
+    background-position: center
+    cursor: pointer
+    &_right
+      right: 0
+      background-image: url(../img/chevron-right.svg)
+    &_left
+      left: 0
+      background-image: url(../img/chevron-left.svg)
+
+.swiper
+  &-reviews
+
+    &::after
+      background: transparent

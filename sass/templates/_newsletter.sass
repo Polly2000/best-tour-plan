@@ -1,0 +1,82 @@
+.newsletter
+  position: relative
+  padding: 93px 0 55px 0
+  margin-top: 70px
+  // background-image: url(../img/subscribe.jpg)
+  // background-repeat: no-repeat
+  // background-position: center
+  // background-size: cover
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height: 100%
+    background-color: rgba($dark-color, 0.8)
+  &-wrapper
+    position: relative
+    display: flex
+    justify-content: space-between
+    max-width: 731px
+    margin: auto
+  &__subscribe
+    margin-top: 14px
+    &-form
+      display: flex
+      flex-direction: column
+      height: 170px
+      border-radius: 5px
+      overflow: hidden
+  &-title
+    display: flex
+    flex-direction: column
+    // align-items: start
+    color: $light-color
+    font-style: normal
+    font-weight: 300
+    font-size: 24px
+    line-height: 30px
+    margin: 0
+    &__strong
+      display: block
+      font-weight: 600
+      font-size: 36px
+      line-height: 45px
+      text-transform: uppercase
+
+.subscribe
+  display: flex
+  flex-direction: column
+  position: relative
+  width: 355px
+  height: 100px
+  border-radius: 4px
+  overflow: hidden
+  &__input
+    position: absolute
+    width: 100%
+    height: 55px
+    // height: 55px
+    padding-left: 33px
+    padding-right: 75px
+    border: none
+    border-radius: 4px
+    font-weight: 300
+    font-size: 14px
+    line-height: 18px
+    &:focus
+      outline: none
+  &__button
+    position: absolute
+    min-width: 65px
+    right: 0
+    top: 0
+    height: 55px
+    border: none
+    background-color: $primary-color
+    color: $light-color
+    cursor: pointer
+    border-radius: 0px 4px 4px 0px

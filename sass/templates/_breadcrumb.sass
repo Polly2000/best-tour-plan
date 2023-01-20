@@ -1,0 +1,19 @@
+.breadcrumb
+  &-list
+    display: flex
+    align-items: center
+    padding: 18px 0
+    margin: 0
+    list-style: none
+    &__item
+      font-style: normal
+      font-weight: normal
+      font-size: 10px
+      line-height: 12.55px
+      &:not(:last-child)
+        &::after
+          content: '/'
+          margin-right: 4px
+    &__link
+      text-decoration: none
+      color: inherit

@@ -1,0 +1,19 @@
+{
+  "workbench.colorTheme": "Monokai",
+  "files.autoSave": "onFocusChange",
+  "editor.fontFamily": "Consolas",
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "./css/"
+    }
+  ]
+}
