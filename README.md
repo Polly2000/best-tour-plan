@@ -9,7 +9,8 @@ Website of tourism
 
 Stack:
 - HTML
-- Flexbox CSS
+- Flexbox CSS 
 - SASS
+- adaptive layout
 - php (phpmailer)
 - JavaScript (with JQuery plugins)
